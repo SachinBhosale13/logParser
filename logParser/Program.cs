@@ -107,7 +107,11 @@ namespace logParser
                     }
 
                     ////logLvlArr = lstLogLvl.ToArray();
-                    if (isLogLevelExist)
+                    if (!isLogLevelExist || lstLogLvl.Count < 1)
+                    {
+                        throw new ArgumentException("Log Level not found.", "--log-level");
+                    }
+                    else
                     {
                         Console.WriteLine("->Requested Log Levels Are: ");
                         for (int i = 0; i < lstLogLvl.Count; i++)
@@ -115,6 +119,7 @@ namespace logParser
                             Console.WriteLine(i + 1 + " " + lstLogLvl[i] + ", ");
                         }
                     }
+                   
                     #endregion
 
                     #region CSV path
