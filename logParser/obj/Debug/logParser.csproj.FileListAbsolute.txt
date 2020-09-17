@@ -5,3 +5,10 @@ D:\Sachin\VS_Projects\logParser\logParser\obj\Debug\logParser.csproj.CoreCompile
 D:\Sachin\VS_Projects\logParser\logParser\obj\Debug\logParser.exe
 D:\Sachin\VS_Projects\logParser\logParser\obj\Debug\logParser.pdb
 D:\Sachin\VS_Projects\logParser\logParser\obj\Debug\logParser.csprojAssemblyReference.cache
+D:\Sachin\Github\logParser\logParser\bin\Debug\logParser.exe.config
+D:\Sachin\Github\logParser\logParser\bin\Debug\logParser.exe
+D:\Sachin\Github\logParser\logParser\bin\Debug\logParser.pdb
+D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csproj.CoreCompileInputs.cache
+D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.exe
+D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.pdb
+D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csprojAssemblyReference.cache

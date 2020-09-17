@@ -1,7 +1,3 @@
-# logParser
-Console app that Converts the log file into csv with passing arguments for log level,log files directory, csv path
-
---------------------
 1.If no arguments are passed then it will throw error
 2.if --help argument is passed then it will show how to pass arguments
 3.If All three arguments are passed then,
@@ -19,13 +15,13 @@ command for testing:-
 
 Testing:
 ->to check if log directory has no log files
-logParser.exe --log-dir "D:\sachin\nolog" --log-level "event" --log-level "error" --csv "D:\Sachin\VS_Projects\logParser\logParser\csv\xyz.csv"
+logParser.exe --log-dir "D:\sachin\nolog" --log-level "event" --log-level "error" --csv "D:\Sachin\Github\logParser\logParser\csv\xyz.csv"
 --------------------------------------
-->To check multiple log levels
-logParser.exe --log-dir "D:\Sachin\VS_Projects\logParser\logParser\logs" --log-level "event" --log-level "error" --csv "D:\Sachin\VS_Projects\logParser\logParser\csv\xyz.csv"
+->To check multiple log levels with any order of argument
+logParser.exe --log-dir "D:\Sachin\Github\logParser\logParser\logs" --csv "D:\Sachin\Github\logParser\xyz\csv" --log-level "warn" --log-level "debug"
 ---------------------------------------
 ->To check csv absolute path:-
-logParser.exe --log-dir "D:\Sachin\VS_Projects\logParser\logParser\logs" --log-level "event" --csv "D:\Sachin\VS_Projects\logParser\logParser\csv\xyz.csv"
+logParser.exe --log-dir "D:\Sachin\Github\logParser\logParser\logs" --log-level "event" --csv "D:\Sachin\Github\logParser\logParser\csv\xyz.csv"
 ---------------------------------------
 ->to check csv non absolute path:-
-logParser.exe --log-dir "D:\Sachin\VS_Projects\logParser\logParser\logs" --log-level "event" --csv "D:\Sachin\VS_Projects\logParser\logParser"
+logParser.exe --log-dir "D:\Sachin\Github\logParser\logParser\logs" --log-level "event" --csv "D:\Sachin\Github\logParser\logParser"
