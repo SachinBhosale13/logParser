@@ -1,0 +1,20 @@
+No,Level,Date,Time,Text
+1,TRACE,24 Mar 2020,8:51:06 AM,:...read_physical_netif: Home list entries returned = 7
+2,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 129.1.1.1, entity for rsvp allocated and initialized
+3,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 9.37.65.139, entity for rsvp allocated and
+4,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 9.67.100.1, entity for rsvp allocated and initialized
+5,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 9.67.101.1, entity for rsvp allocated and initialized
+6,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 9.67.116.98, entity for rsvp allocated and
+7,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 9.67.117.98, entity for rsvp allocated and
+8,TRACE,24 Mar 2020,8:51:06 AM,:..entity_initialize: interface 127.0.0.1, entity for rsvp allocated and initialized
+9,TRACE,24 Mar 2020,8:51:06 AM,:......mailslot_create: ready to accept informational socket connection
+10,TRACE,24 Mar 2020,8:52:50 AM,:......rsvp_event_mapSession: Session=9.67.116.99:1047:6 does not exist
+11,EVENT,24 Mar 2020,2:52:50 PM,:.....api_reader: api request SESSION
+12,TRACE,24 Mar 2020,2:52:50 PM,:......rsvp_event_establishSession: local node will send
+13,TRACE,24 Mar 2020,2:52:50 PM,:........router_forward_getOI:         source address:   9.67.116.98
+14,TRACE,24 Mar 2020,2:52:50 PM,:........router_forward_getOI:         out inf:   9.67.116.98
+15,TRACE,24 Mar 2020,2:52:50 PM,:........router_forward_getOI:         gateway:   0.0.0.0
+16,TRACE,24 Mar 2020,2:52:50 PM,:........router_forward_getOI:         route handle:   7f5251c8
+17,TRACE,24 Mar 2020,2:52:50 PM,:.......event_establishSessionSend: found outgoing if=9.67.116.98 through
+18,TRACE,25 Mar 2020,2:52:50 PM,:......rsvp_event_mapSession: Session=9.67.116.99:1047:6 exists
+19,EVENT,25 Mar 2020,2:52:50 PM,:.....api_reader: api request SENDER

@@ -11,4 +11,3 @@ D:\Sachin\Github\logParser\logParser\bin\Debug\logParser.pdb
 D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csproj.CoreCompileInputs.cache
 D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.exe
 D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.pdb
-D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csprojAssemblyReference.cache
