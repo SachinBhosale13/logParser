@@ -17,7 +17,7 @@ namespace logParser
         EVENT,
         TRACE
     }
-    interface IArgumentParser
+    public interface IArgumentParser
     {
         Tuple<bool,Dictionary<string,string>> ValidateUserInputs(string[] args);
     }
@@ -26,7 +26,7 @@ namespace logParser
         public Tuple<bool, Dictionary<string, string>> ValidateUserInputs(string[] args)
         {
             Tuple<bool, Dictionary<string, string>> tuple = null;
-            var vTuple = tuple;
+            //var vTuple = tuple;
 
             Dictionary<string, string> errorList = new Dictionary<string, string>();
 
@@ -36,7 +36,7 @@ namespace logParser
             }
             else if (args.Contains("--help"))
             {
-                vTuple = Tuple.Create(true, errorList);
+                tuple = Tuple.Create(true, errorList);
             }
             else if (args.Contains("--log-dir") && args.Contains("--log-level") && args.Contains("--csv"))
             {
@@ -69,8 +69,7 @@ namespace logParser
                 }
                 #endregion
 
-                #region LogLevels 
-                enumLogLevels enumLogL = new enumLogLevels();
+                #region LogLevels                 
 
                 for (int i = 0; i < args.Length; i++)
                 {
@@ -133,14 +132,14 @@ namespace logParser
 
             if (errorList.Count == 0)
             {
-                vTuple = Tuple.Create(true, errorList);
+                tuple = Tuple.Create(true, errorList);
             }
             else
             {
-                vTuple = Tuple.Create(false, errorList);
+                tuple = Tuple.Create(false, errorList);
             }
 
-            return vTuple;
+            return tuple;
         }        
     }
 }

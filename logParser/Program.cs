@@ -12,7 +12,9 @@ namespace logParser
     {
         static void Main(string[] args)
         {
-            MyClass objMyClass = new MyClass();
+            ArgumentParser objArg = new ArgumentParser();
+            LogParser objLog = new LogParser();
+            bool result = false;
             Tuple<bool, Dictionary<string, string>> tuple = null;
             var vTuple = tuple;
 
@@ -35,7 +37,7 @@ namespace logParser
                 {
                     #region Validations                
 
-                    vTuple = objMyClass.ValidateUserInputs(args);
+                    vTuple = objArg.ValidateUserInputs(args);
 
                     if (vTuple.Item1 == false)
                     {
@@ -61,7 +63,7 @@ namespace logParser
 
                 if (vTuple != null && vTuple.Item1 == true)
                 {
-                    objMyClass.GetCSV(args);
+                    result = objLog.GetCSV(args);
                 }
 
             }

@@ -8,14 +8,15 @@ using System.IO;
 
 namespace logParser
 {
-    interface ILogParser
+    public interface ILogParser
     {
-        void GetCSV(string[] args);
+        bool GetCSV(string[] args);
     }
     public class LogParser
     {
-        public void GetCSV(string[] args)
+        public bool GetCSV(string[] args)
         {
+            bool result = false;
             #region logDirectory
             int logDirIndex;
             string logDirPath = "";
@@ -197,6 +198,7 @@ namespace logParser
                             }
                             Console.WriteLine("=================================================================================================");
                             Console.WriteLine("***CSV file created at location: " + csvPath);
+                            result = true;
                         }
                     }
                 }
@@ -206,6 +208,7 @@ namespace logParser
                 Console.WriteLine("Something went wrong.");
             }
             #endregion
+            return result;
         }
     }
 }

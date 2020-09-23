@@ -11,3 +11,11 @@ D:\Sachin\Github\logParser\logParser\bin\Debug\logParser.pdb
 D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csproj.CoreCompileInputs.cache
 D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.exe
 D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.pdb
+D:\Sachin\Github\logParser\logParser\bin\Debug\Castle.Core.dll
+D:\Sachin\Github\logParser\logParser\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Sachin\Github\logParser\logParser\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Sachin\Github\logParser\logParser\bin\Debug\Castle.Core.xml
+D:\Sachin\Github\logParser\logParser\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Sachin\Github\logParser\logParser\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csprojAssemblyReference.cache
+D:\Sachin\Github\logParser\logParser\obj\Debug\logParser.csproj.CopyComplete
